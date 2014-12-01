@@ -1,1 +1,14 @@
-This is first line in reflection
+When to use branches?
+
+Branches help you keep history organized. If there is stable build that you want to maintain while you work on the next set of significant changes, create a branch for that. You can still fix minor bugs on that branch, diff between commits, and revert to a previous version of that branch if needed.
+
+Using branches helps you context switching between different things you are working on this project.
+
+
+Visualizing with Diagrams
+
+A diagram is constructed with commits and arrows pointing to the parent commits.
+The branch label is attached to the latest commit.
+
+It is useful to see how the branches are linked. It is also useful to see if there is any unreachable commits.
+
